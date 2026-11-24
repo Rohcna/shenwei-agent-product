@@ -7,6 +7,7 @@ from agent_app.tools.availability import GetAvailability
 from agent_app.tools.product import GetProductSpec
 
 
+# generated: 01N5b 00F5e
 def _loop(erp, script, budget, clock=None):
     reg = ToolRegistry([GetProductSpec(erp), GetAvailability(erp)])
     model = ScriptedModel(script)
